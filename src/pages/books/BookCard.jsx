@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 const BookCard = ({ book }) => {
 
-  console.log(getImgUrl);
   const {
     _id,
     coverImage,
