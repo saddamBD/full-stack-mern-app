@@ -13,6 +13,18 @@ export default {
         primary: ["Montserrat", "sans-serif"],
         secondary: ["Nunito Sans", "sans-serif"],
       },
+      keyframes: {
+        // Corrected here
+        slide: {
+          "0%": { transform: "translateX(0)" },
+          "33%": { transform: "translateX(-100%)" },
+          "66%": { transform: "translateX(-200%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        slide: "slide 20s infinite",
+      },
     },
   },
   plugins: [],
