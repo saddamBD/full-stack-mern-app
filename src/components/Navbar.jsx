@@ -17,7 +17,7 @@ const navigation = [
 
 const Navbar = () => {
     const  [isDropdownOpen, setIsDropdownOpen] = useState(false)
-    const currentUser = true // set to true if user is logged in -->
+    const currentUser = false // set to true if user is logged in -->
     
     return (
         <header className="max-w-screen-2xl mx-auto px-4 py-6">
